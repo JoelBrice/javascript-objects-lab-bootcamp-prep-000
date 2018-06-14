@@ -10,9 +10,9 @@ function updateObjectWithKeyAndValue(object, key, value){
    return object;
  }
 // delete a key inside the object directly
-function deleteFromObjectByKey(object, key, value){
+function deleteFromObjectByKey(object, key){
   delete object[key];
-  return Object{{},object,{[key]: value}};
+  return Object{{},object,[key]};
 }
 // develete a key using object
 
