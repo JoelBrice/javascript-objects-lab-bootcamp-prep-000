@@ -9,7 +9,7 @@ function updateObjectWithKeyAndValue(object, key, value){
    object[key]=value;
    return object;
  }
-// delete a key inside the object directly
+// delete a key inside the object directly without destroying the object
 function deleteFromObjectByKey(object, key){
   delete object.key;
   return Object.assign({},object,key);
