@@ -11,7 +11,7 @@ function updateObjectWithKeyAndValue(object, key, value){
  }
 // delete a key inside the object directly
 function deleteFromObjectByKey(object, key){
-  delete [key];
+  delete object[key];
   return object;
 }
 // develete a key using object
