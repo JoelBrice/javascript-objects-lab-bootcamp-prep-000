@@ -10,7 +10,7 @@ function updateObjectWithKeyAndValue(object, key, value){
  }
 
 function deleteFromObjectByKey(object, key){
-  object[key]=''
+  object.delete(key)
   return object
 }
 
