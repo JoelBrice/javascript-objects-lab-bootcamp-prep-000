@@ -11,9 +11,9 @@ function updateObjectWithKeyAndValue(object, key, value){
  }
 // delete a key inside the object directly without destroying the object
 function deleteFromObjectByKey(object, key){
-  object = Object.assign({}, object);
-  delete object.key;
-  return object;
+  var newObject = Object.assign({}, object);
+  delete newObject.key;
+  return newObject;
 }
 // develete a key using object
 
